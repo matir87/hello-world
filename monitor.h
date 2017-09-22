@@ -39,7 +39,7 @@ class Monitor : public QThread
         unsigned DELAY;
 
 
-        /******/
+        /****Edito esta parte para generar la version 2, así hago un branch nuevo**/
 
         unsigned secuencia;
 

@@ -18,6 +18,7 @@
 #include <QFile.h>
 #include <QStandardItemModel>
 
+//Este comentario no estaba
 namespace Ui {class MainWindow;}
 
 class MainWindow : public QMainWindow
@@ -61,7 +62,7 @@ private slots:
     void on_lineEdit_textChanged(const QString &arg1);
     void on_lineEdit_2_textChanged(const QString &arg1);
 
-
+    //Este comentario no estaba
 
 private:
 
@@ -131,5 +132,5 @@ private:
     QStandardItemModel *model;
     QList<QStandardItem*> standardItemList;
 };
-
+//Este comentario no estaba
 #endif // MAINWINDOW_H

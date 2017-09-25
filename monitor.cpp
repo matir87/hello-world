@@ -13,6 +13,7 @@ Monitor::Monitor(QObject *parent):
     timerRun2 = new QTimer;
 }
 
+//esto es un comentario de prueba
 
 void Monitor::setMonitorConfig(QSerialPort *puerto,QMutex *mutex, unsigned* comandID, unsigned* comandTipo,unsigned* DELAY_LATENCIA)
 {
